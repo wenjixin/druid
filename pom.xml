@@ -40,6 +40,14 @@
         </license>
     </licenses>
 
+	<distributionManagement>
+		<repository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>http://10.210.77.15:8888/nexus/content/repositories/snapshots/</url>
+		</repository>
+	</distributionManagement>
+
     <developers>
         <developer>
             <name>Fangjin Yang</name>
